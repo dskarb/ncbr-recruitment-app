@@ -26,7 +26,7 @@ const EditProfile = () => {
       navigate(ROUTES_PROFILES.PROFILES_LIST);
       snackbarUtils.error("Profile doesn't exist.");
     }
-  }, []);
+  }, [profileId]);
 
   return (
     <PanelWrapper>

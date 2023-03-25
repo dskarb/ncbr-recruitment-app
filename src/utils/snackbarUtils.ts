@@ -7,7 +7,7 @@ export const SnackbarUtilsConfigurator: React.FC = () => {
   return null;
 };
 
-export default {
+const snackbarUtils = {
   success(msg: string) {
     this.toast(msg, "success");
   },
@@ -24,3 +24,5 @@ export default {
     useSnackbarRef.enqueueSnackbar(msg, { variant });
   },
 };
+
+export default snackbarUtils;

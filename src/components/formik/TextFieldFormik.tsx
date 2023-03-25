@@ -1,6 +1,5 @@
 import TextField, { TextFieldProps } from "components/input/TextField";
 import { useField } from "formik";
-import { useEffect, useState } from "react";
 
 export interface TextFieldFormikProps
   extends Omit<
